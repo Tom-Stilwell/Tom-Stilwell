@@ -567,6 +567,13 @@ textarea::-ms-input-placeholder {
 
 /*For Experience Section*/
 
+#resume-link {
+  font-size: 24px;
+  background-color: ivory;
+  border-radius: 6px;
+  padding: 4px;
+}
+
 .experience {
   background: url(../images/city.jpg) no-repeat center top fixed;
   background-size: cover;
@@ -610,8 +617,35 @@ textarea::-ms-input-placeholder {
 }
 
 /* For Portfolio Section*/
+
+.portfolio-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
 .portfolio-item {
   margin-bottom: 20px;
+  height: 260px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.portfolio-item:hover {
+  background-color: lightgrey;
+}
+
+.portfolio-description {
+  font-size: 20px;
+  text-align: center;
+}
+
+.portfolio-description span {
+  color: black;
+}
+
+.portfolio-description img {
+  height: 40px;
+  width: 40px;
 }
 
 .portfolio-wrapper2 {
@@ -725,7 +759,6 @@ textarea::-ms-input-placeholder {
   color: #c3bec2;
   font-size: 12px;
 }
-
 /* --------------------------------
 
 Modules - reusable parts of our design
