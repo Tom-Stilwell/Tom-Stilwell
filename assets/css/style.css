@@ -735,6 +735,13 @@ textarea::-ms-input-placeholder {
   margin: 0 0 10px;
   color: #c3bec2;
 }
+.contact-details a {
+  color: #ff9966;
+}
+
+.contact-details a:hover {
+  color: #993300;
+}
 
 /* For Footer Area */
 
